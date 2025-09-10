@@ -5,19 +5,18 @@ import Navbar from "../components/Navbar";
 const Complaints = () => {
     const [reports, setReports] = useState([]);
         const [error, setError] = useState(""); // State to handle errors
-        const token = localStorage.getItem("token"); // Get the token from local storage
-    
-        if (!token) {
-            setError("Unauthorized: Please log in to perform this action.");
-            return;
-        }
+        
         // Fetch reports from the backend when the component mounts
         useEffect(() => {
+            const token = localStorage.getItem("token");
+            if (!token) {
+                setError("Unauthorized: Please log in to perform this action.");
+                return;
+            }
             fetch(`${import.meta.env.VITE_BACKEND_URL}/api/userreport/reports`, {
                 method: "GET",
                 headers: {
-                    // "Content-Type": "application/json",
-                    "Authorization": `Bearer ${token}`, // Include the token in the Authorization header
+                    "Authorization": `Bearer ${token}`,
                 }
             })
                 .then((res) => {

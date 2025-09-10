@@ -269,14 +269,17 @@ function DustbinMarkers({ userPosition, onRouteChange, setNearbyBins, highlightB
 
         // Process the fetched data
         const processedDustbins = data.map(bin => ({
-          id: bin.id,
-          location: bin.locn,
+          id: bin._id,
+          location: {
+            latitude: Array.isArray(bin.location?.coordinates) ? bin.location.coordinates[1] : null,
+            longitude: Array.isArray(bin.location?.coordinates) ? bin.location.coordinates[0] : null,
+          },
           status: bin.status,
           lastEmptiedAt: bin.lastEmptiedAt,
           realTimeCapacity: bin.realTimeCapacity,
           totalCapacity: bin.totalCapacity,
           category: bin.category,
-        }));
+        })).filter(b => b.location.latitude !== null && b.location.longitude !== null);
 
         setDustbins(processedDustbins);
       } catch (error) {

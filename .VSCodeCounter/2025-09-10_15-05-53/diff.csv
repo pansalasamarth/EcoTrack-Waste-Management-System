@@ -1,0 +1,38 @@
+"filename", "language", "JSON", "JavaScript", "Markdown", "JSON with Comments", "PostCSS", "JavaScript JSX", "HTML", "comment", "blank", "total"
+"d:\EcoTrack-Waste-Management-System\client\README.md", "Markdown", 0, 0, -7, 0, 0, 0, 0, 0, -6, -13
+"d:\EcoTrack-Waste-Management-System\client\bun.lock", "JSON with Comments", 0, 0, 0, -338, 0, 0, 0, 0, -299, -637
+"d:\EcoTrack-Waste-Management-System\client\eslint.config.js", "JavaScript", 0, -32, 0, 0, 0, 0, 0, 0, -2, -34
+"d:\EcoTrack-Waste-Management-System\client\index.html", "HTML", 0, 0, 0, 0, 0, 0, -13, 0, -1, -14
+"d:\EcoTrack-Waste-Management-System\client\package-lock.json", "JSON", -3796, 0, 0, 0, 0, 0, 0, 0, -1, -3797
+"d:\EcoTrack-Waste-Management-System\client\package.json", "JSON", -42, 0, 0, 0, 0, 0, 0, 0, -1, -43
+"d:\EcoTrack-Waste-Management-System\client\src\App.css", "PostCSS", 0, 0, 0, 0, -1, 0, 0, 0, 0, -1
+"d:\EcoTrack-Waste-Management-System\client\src\App.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, -31, 0, -7, -8, -46
+"d:\EcoTrack-Waste-Management-System\client\src\components\Footer.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, -9, 0, 0, -2, -11
+"d:\EcoTrack-Waste-Management-System\client\src\components\GPSPermission.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, -34, 0, -2, -8, -44
+"d:\EcoTrack-Waste-Management-System\client\src\components\Navbar.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, -109, 0, -7, -15, -131
+"d:\EcoTrack-Waste-Management-System\client\src\components\Register.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, -79, 0, -6, -13, -98
+"d:\EcoTrack-Waste-Management-System\client\src\components\SlideUpPanel.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, -29, 0, -2, -4, -35
+"d:\EcoTrack-Waste-Management-System\client\src\components\WCNavbar.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, -88, 0, -7, -17, -112
+"d:\EcoTrack-Waste-Management-System\client\src\components\adminMainNavigation.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, -275, 0, -6, -20, -301
+"d:\EcoTrack-Waste-Management-System\client\src\components\adminNav.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, -109, 0, -7, -15, -131
+"d:\EcoTrack-Waste-Management-System\client\src\components\login.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, -206, 0, -15, -41, -262
+"d:\EcoTrack-Waste-Management-System\client\src\components\userMainNavigation.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, -15, 0, -3, -6, -24
+"d:\EcoTrack-Waste-Management-System\client\src\context\authContext.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, -64, 0, 0, -6, -70
+"d:\EcoTrack-Waste-Management-System\client\src\index.css", "PostCSS", 0, 0, 0, 0, -1, 0, 0, 0, 0, -1
+"d:\EcoTrack-Waste-Management-System\client\src\main.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, -12, 0, 0, -2, -14
+"d:\EcoTrack-Waste-Management-System\client\src\pages\Admin\Notification.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 0, 0, 0, -1, -1
+"d:\EcoTrack-Waste-Management-System\client\src\pages\Schedule.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, -84, 0, -22, -10, -116
+"d:\EcoTrack-Waste-Management-System\client\src\pages\UserMain.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, -9, 0, 0, -2, -11
+"d:\EcoTrack-Waste-Management-System\client\src\pages\WCReports.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, -61, 0, 0, -4, -65
+"d:\EcoTrack-Waste-Management-System\client\src\pages\adminDashboard.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, -121, 0, -9, -18, -148
+"d:\EcoTrack-Waste-Management-System\client\src\pages\complaints.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, -113, 0, -6, -10, -129
+"d:\EcoTrack-Waste-Management-System\client\src\pages\map\CollectorMap.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, -261, 0, -29, -51, -341
+"d:\EcoTrack-Waste-Management-System\client\src\pages\map\Map.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, -449, 0, -10, -46, -505
+"d:\EcoTrack-Waste-Management-System\client\src\pages\map\UserMap.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, -1, 0, 0, -1, -2
+"d:\EcoTrack-Waste-Management-System\client\src\pages\map\reverseLocation.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, -8, 0, 0, -1, -9
+"d:\EcoTrack-Waste-Management-System\client\src\pages\userReportForm.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, -166, 0, -1, -18, -185
+"d:\EcoTrack-Waste-Management-System\client\tailwind.config.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, -1, -1
+"d:\EcoTrack-Waste-Management-System\client\vite.config.js", "JavaScript", 0, -8, 0, 0, 0, 0, 0, -1, -2, -11
+"d:\EcoTrack-Waste-Management-System\data\users.json", "JSON", 202, 0, 0, 0, 0, 0, 0, 0, 4, 206
+"d:\EcoTrack-Waste-Management-System\data\waste_bin_data.json", "JSON", 960, 0, 0, 0, 0, 0, 0, 0, 0, 960
+"Total", "-", -2676, -40, -7, -338, -2, -2333, -13, -140, -628, -6177

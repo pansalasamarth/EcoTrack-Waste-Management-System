@@ -1,0 +1,7 @@
+"filename", "language", "pip requirements", "Python", "JSON", "comment", "blank", "total"
+"d:\EcoTrack-Waste-Management-System\data\users.json", "JSON", 0, 0, -202, 0, -4, -206
+"d:\EcoTrack-Waste-Management-System\data\waste_bin_data.json", "JSON", 0, 0, -960, 0, 0, -960
+"d:\EcoTrack-Waste-Management-System\python-server\requirements.txt", "pip requirements", 7, 0, 0, 1, 1, 9
+"d:\EcoTrack-Waste-Management-System\python-server\schedule.py", "Python", 0, 29, 0, 5, 11, 45
+"d:\EcoTrack-Waste-Management-System\python-server\server.py", "Python", 0, 65, 0, 10, 20, 95
+"Total", "-", 7, 94, -1162, 16, 28, -1017

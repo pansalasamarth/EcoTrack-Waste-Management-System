@@ -44,7 +44,7 @@ const wasteBinSchema = new Schema({
     },
     status: {
         type: String,
-        enum: ["filled", "recycled", "partially filled", "empty"],
+        enum: ["filled", "recycled", "partially_filled", "empty"],
         required: true
     },
     sensorEnabled: {

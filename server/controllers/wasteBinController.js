@@ -1,5 +1,6 @@
 import WasteBin from "../models/wasteBinModel.js";
 import { io } from "./../index.js";
+import mongoose from "mongoose";
 
 // Define thresholds for different fill levels
 const PARTIALLY_FILLED_THRESHOLD = 50; // 50% capacity
@@ -8,7 +9,9 @@ const FULLY_FILLED_THRESHOLD = 85; // 85% capacity
 export const updateBinStatus = async (req, res) => {
   try {
     const { id, realTimeCapacity } = req.body;
-    const bin = await WasteBin.findOne({ id });
+    const bin = mongoose.Types.ObjectId.isValid(id)
+      ? await WasteBin.findById(id)
+      : await WasteBin.findOne({ id });
 
     if (!bin) return res.status(404).json({ message: "Bin not found" });
 
@@ -22,9 +25,9 @@ export const updateBinStatus = async (req, res) => {
     if (realTimeCapacity >= FULLY_FILLED_THRESHOLD) {
       bin.status = "filled";
     } else if (realTimeCapacity >= PARTIALLY_FILLED_THRESHOLD) {
-      bin.status = "partially filled";
+      bin.status = "partially_filled";
     } else {
-      bin.status = "normal";
+      bin.status = "empty";
     }
 
     await bin.save();
@@ -90,13 +93,30 @@ export const simulateBinCapacityChange = async (req, res) => {
     const bin = await WasteBin.findById(binId);
     if (!bin) return res.status(404).json({ message: "Bin not found" });
 
-    // Update bin status directly and send a response
-    const updatedBin = await updateBinStatus(
-      { body: { id: binId, realTimeCapacity: newCapacity } },
-      res
-    );
+    const previousCapacity = bin.realTimeCapacity;
+    bin.realTimeCapacity = newCapacity;
+    if (newCapacity >= FULLY_FILLED_THRESHOLD) {
+      bin.status = "filled";
+    } else if (newCapacity >= PARTIALLY_FILLED_THRESHOLD) {
+      bin.status = "partially_filled";
+    } else {
+      bin.status = "empty";
+    }
 
-    res.status(200).json({ msg: "Simulation successful", updatedBin });
+    await bin.save();
+
+    const crossedFullThreshold =
+      previousCapacity < FULLY_FILLED_THRESHOLD && newCapacity >= FULLY_FILLED_THRESHOLD;
+    const crossedPartialThreshold =
+      previousCapacity < PARTIALLY_FILLED_THRESHOLD && newCapacity >= PARTIALLY_FILLED_THRESHOLD;
+
+    if (crossedFullThreshold) {
+      emitBinAlert(bin, "FULLY FILLED");
+    } else if (crossedPartialThreshold) {
+      emitBinAlert(bin, "PARTIALLY FILLED");
+    }
+
+    res.status(200).json({ msg: "Simulation successful", bin });
   } catch (error) {
     console.error("Error simulating bin capacity change:", error);
     res.status(500).json({ error: error.message });
@@ -188,9 +208,6 @@ export const getAllWasteBins = async (req, res) => {
     res
       .status(500)
       .json({ msg: "Failed to fetch waste bins", error: err.message });
-    res
-      .status(500)
-      .json({ msg: "Failed to fetch waste bins", error: err.message });
   }
 };
 
@@ -201,9 +218,6 @@ export const getAllWasteBinsFiltered = async (req, res) => {
     });
     res.status(200).json(bins);
   } catch (err) {
-    res
-      .status(500)
-      .json({ msg: "Failed to fetch waste bins", error: err.message });
     res
       .status(500)
       .json({ msg: "Failed to fetch waste bins", error: err.message });
@@ -295,9 +309,6 @@ export const getAllWasteBinsSensor = async (req, res) => {
     }
     res.status(200).json(bins);
   } catch (err) {
-    res
-      .status(500)
-      .json({ msg: "Failed to fetch waste bins", error: err.message });
     res
       .status(500)
       .json({ msg: "Failed to fetch waste bins", error: err.message });
