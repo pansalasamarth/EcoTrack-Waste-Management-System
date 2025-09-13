@@ -13,6 +13,8 @@ import UserReportForm from './pages/userReportForm';
 //import WasteCollectorLayout from './components/WasteCollectorLayout'; // Assuming this is a separate file
 import Complaints from './pages/complaints';
 import CollectorMap from './pages/map/CollectorMap';
+import AddWasteBin from './pages/AddWasteBin';
+import AddBinOnMap from './pages/AddBinOnMap';
 const App = () => {
   return (
     <Router>
@@ -34,6 +36,7 @@ const App = () => {
 
         {/* <Route path="/admin" element={<AdminMainNavigation />} /> */}
         <Route path="/adminDashboard" element={<AdminDashboard />} />
+        <Route path="/addWasteBin" element={<AddWasteBin />} />
 
         <Route path="/schedule" element={<Schedule />} />
 

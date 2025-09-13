@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Home, Calendar, User, Flag } from 'lucide-react';
+import { Home, Calendar, User, Flag, Plus, MapPin } from 'lucide-react';
 import { useContext } from 'react'; // Importing useContext to access context values
 import { AuthContext } from '../context/authContext'; // Importing AuthContext for user authentication
 
@@ -28,6 +28,8 @@ const AdminNavbar = () => {
   
   const navLinks = [
     { name: 'Home', path: '/adminMainNavigation', icon: <Home size={18} /> },
+    { name: 'Add Bin', path: '/addWasteBin', icon: <Plus size={18} /> },
+    { name: 'Add on Map', path: '/addBinOnMap', icon: <MapPin size={18} /> },
     { name: 'Schedule', path: '/schedule', icon: <Flag size={18} /> },
   ];
   

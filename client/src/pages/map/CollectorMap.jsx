@@ -165,8 +165,8 @@ function CollectorMap() {
     const formattedWastebins = filteredWastebins.map(bin => ({
         id: bin._id,
         location: {
-            latitude: bin.locn?.latitude, // Use optional chaining
-            longitude: bin.locn?.longitude,
+            latitude: bin.location?.coordinates?.[1] || bin.locn?.latitude, // Use optional chaining
+            longitude: bin.location?.coordinates?.[0] || bin.locn?.longitude,
         },
         status: bin.status,
         isBin: true, // Mark it as a bin

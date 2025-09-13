@@ -12,7 +12,7 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 app.use(cors());
-const port = process.env.PORT;
+const port = process.env.PORT || 8800;
 const server = http.createServer(app); //socket
 const io = new Server(server, { 
 	cors:{
@@ -23,7 +23,7 @@ const io = new Server(server, {
 }) //socket
 
 app.get("/", (req, res) => {
-	res.send("Hello World");
+	res.send("EcoTrack Waste Management System API");
 });
 
 app.use("/api/users", userRoutes);

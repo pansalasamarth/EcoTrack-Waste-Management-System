@@ -26,7 +26,9 @@ const WCNavbar = () => {
     };
   }, []);
   
-  
+  const navLinks = [
+    { name: 'Home', path: '/collectorMap', icon: <Home size={18} /> },
+  ];
   
   return (
     <nav className={`bg-gradient-to-r from-green-700 via-green-600 to-green-500 w-full sticky top-0 z-50 ${scrolled ? 'shadow-lg' : ''}`}>

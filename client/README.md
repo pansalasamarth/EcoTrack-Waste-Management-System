@@ -1,12 +1,61 @@
-# React + Vite
+# EcoTrack - Frontend Client
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the React frontend client for the EcoTrack Waste Management System.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **User Dashboard**: Interactive map showing waste bin locations and status
+- **Report System**: Users can report overflowing bins with photos
+- **Admin Panel**: Manage reports and monitor system status
+- **Waste Collector Interface**: Optimized routes for waste collection
+- **Real-time Notifications**: Socket.io integration for live updates
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React 19** - Modern React with latest features
+- **Vite** - Fast build tool and dev server
+- **Tailwind CSS** - Utility-first CSS framework
+- **Leaflet** - Interactive maps
+- **Socket.io Client** - Real-time communication
+- **React Router** - Client-side routing
+- **Framer Motion** - Smooth animations
+
+## Setup
+
+1. Install dependencies:
+```bash
+npm install
+```
+
+2. Create a `.env` file in the client directory:
+```env
+VITE_BACKEND_URL=http://localhost:8800
+VITE_NODE_ENV=development
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+The application will be available at `http://localhost:5173`
+
+## Project Structure
+
+```
+src/
+├── components/          # Reusable UI components
+├── pages/              # Page components
+│   ├── Admin/          # Admin-specific pages
+│   └── map/            # Map-related components
+├── context/            # React context providers
+└── main.jsx           # Application entry point
+```
+
+## Key Components
+
+- **Map.jsx**: Main interactive map with waste bin markers
+- **login.jsx**: Authentication interface
+- **adminDashboard.jsx**: Admin control panel
+- **CollectorMap.jsx**: Waste collector route optimization
+- **userReportForm.jsx**: Bin reporting interface

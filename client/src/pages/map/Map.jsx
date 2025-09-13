@@ -397,7 +397,7 @@ function DustbinMarkers({ userPosition, onRouteChange, setNearbyBins, highlightB
 }
 
 function Map() {
-  const defaultPosition = [18.5532, 73.8426];
+  const defaultPosition = [23.0225, 72.5714]; // Ahmedabad, Gujarat coordinates
   const [userPosition, setUserPosition] = useState(null);
   const [route, setRoute] = useState([]);
   const [environmentalMessage, setEnvironmentalMessage] = useState("");
