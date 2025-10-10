@@ -1,0 +1,67 @@
+"filename", "language", "JavaScript", "JSON", "Markdown", "JavaScript JSX", "PostCSS", "HTML", "JSON with Comments", "comment", "blank", "total"
+"d:\EcoTrack-Waste-Management-System-main\client\README.md", "Markdown", 0, 0, 47, 0, 0, 0, 0, 0, 15, 62
+"d:\EcoTrack-Waste-Management-System-main\client\bun.lock", "JSON with Comments", 0, 0, 0, 0, 0, 0, 338, 0, 299, 637
+"d:\EcoTrack-Waste-Management-System-main\client\eslint.config.js", "JavaScript", 32, 0, 0, 0, 0, 0, 0, 0, 2, 34
+"d:\EcoTrack-Waste-Management-System-main\client\index.html", "HTML", 0, 0, 0, 0, 0, 13, 0, 0, 1, 14
+"d:\EcoTrack-Waste-Management-System-main\client\package-lock.json", "JSON", 0, 3795, 0, 0, 0, 0, 0, 0, 1, 3796
+"d:\EcoTrack-Waste-Management-System-main\client\package.json", "JSON", 0, 42, 0, 0, 0, 0, 0, 0, 1, 43
+"d:\EcoTrack-Waste-Management-System-main\client\src\App.css", "PostCSS", 0, 0, 0, 0, 1, 0, 0, 0, 0, 1
+"d:\EcoTrack-Waste-Management-System-main\client\src\App.jsx", "JavaScript JSX", 0, 0, 0, 36, 0, 0, 0, 7, 8, 51
+"d:\EcoTrack-Waste-Management-System-main\client\src\components\Footer.jsx", "JavaScript JSX", 0, 0, 0, 9, 0, 0, 0, 0, 2, 11
+"d:\EcoTrack-Waste-Management-System-main\client\src\components\GPSPermission.jsx", "JavaScript JSX", 0, 0, 0, 34, 0, 0, 0, 2, 8, 44
+"d:\EcoTrack-Waste-Management-System-main\client\src\components\Navbar.jsx", "JavaScript JSX", 0, 0, 0, 111, 0, 0, 0, 7, 15, 133
+"d:\EcoTrack-Waste-Management-System-main\client\src\components\Register.jsx", "JavaScript JSX", 0, 0, 0, 79, 0, 0, 0, 6, 13, 98
+"d:\EcoTrack-Waste-Management-System-main\client\src\components\SlideUpPanel.jsx", "JavaScript JSX", 0, 0, 0, 29, 0, 0, 0, 2, 4, 35
+"d:\EcoTrack-Waste-Management-System-main\client\src\components\WCNavbar.jsx", "JavaScript JSX", 0, 0, 0, 91, 0, 0, 0, 7, 16, 114
+"d:\EcoTrack-Waste-Management-System-main\client\src\components\adminMainNavigation.jsx", "JavaScript JSX", 0, 0, 0, 275, 0, 0, 0, 6, 20, 301
+"d:\EcoTrack-Waste-Management-System-main\client\src\components\adminNav.jsx", "JavaScript JSX", 0, 0, 0, 111, 0, 0, 0, 7, 15, 133
+"d:\EcoTrack-Waste-Management-System-main\client\src\components\admin\AdminSettings.jsx", "JavaScript JSX", 0, 0, 0, 442, 0, 0, 0, 3, 35, 480
+"d:\EcoTrack-Waste-Management-System-main\client\src\components\admin\AnalyticsDashboard.jsx", "JavaScript JSX", 0, 0, 0, 368, 0, 0, 0, 6, 24, 398
+"d:\EcoTrack-Waste-Management-System-main\client\src\components\admin\NotificationCenter.jsx", "JavaScript JSX", 0, 0, 0, 201, 0, 0, 0, 1, 14, 216
+"d:\EcoTrack-Waste-Management-System-main\client\src\components\admin\ReportDetailsModal.jsx", "JavaScript JSX", 0, 0, 0, 253, 0, 0, 0, 6, 17, 276
+"d:\EcoTrack-Waste-Management-System-main\client\src\components\admin\UserManagementModal.jsx", "JavaScript JSX", 0, 0, 0, 235, 0, 0, 0, 0, 20, 255
+"d:\EcoTrack-Waste-Management-System-main\client\src\components\login.jsx", "JavaScript JSX", 0, 0, 0, 206, 0, 0, 0, 15, 41, 262
+"d:\EcoTrack-Waste-Management-System-main\client\src\components\userMainNavigation.jsx", "JavaScript JSX", 0, 0, 0, 17, 0, 0, 0, 3, 6, 26
+"d:\EcoTrack-Waste-Management-System-main\client\src\components\user\ReportCard.jsx", "JavaScript JSX", 0, 0, 0, 211, 0, 0, 0, 5, 16, 232
+"d:\EcoTrack-Waste-Management-System-main\client\src\components\user\ReportDetailsModal.jsx", "JavaScript JSX", 0, 0, 0, 343, 0, 0, 0, 17, 22, 382
+"d:\EcoTrack-Waste-Management-System-main\client\src\components\user\UserProfile.jsx", "JavaScript JSX", 0, 0, 0, 202, 0, 0, 0, 2, 15, 219
+"d:\EcoTrack-Waste-Management-System-main\client\src\components\user\UserSettings.jsx", "JavaScript JSX", 0, 0, 0, 385, 0, 0, 0, 7, 25, 417
+"d:\EcoTrack-Waste-Management-System-main\client\src\context\authContext.jsx", "JavaScript JSX", 0, 0, 0, 64, 0, 0, 0, 0, 6, 70
+"d:\EcoTrack-Waste-Management-System-main\client\src\index.css", "PostCSS", 0, 0, 0, 0, 49, 0, 0, 5, 11, 65
+"d:\EcoTrack-Waste-Management-System-main\client\src\main.jsx", "JavaScript JSX", 0, 0, 0, 12, 0, 0, 0, 0, 2, 14
+"d:\EcoTrack-Waste-Management-System-main\client\src\pages\AddBinOnMap.jsx", "JavaScript JSX", 0, 0, 0, 371, 0, 0, 0, 16, 37, 424
+"d:\EcoTrack-Waste-Management-System-main\client\src\pages\AddWasteBin.jsx", "JavaScript JSX", 0, 0, 0, 309, 0, 0, 0, 5, 27, 341
+"d:\EcoTrack-Waste-Management-System-main\client\src\pages\Admin\Notification.jsx", "JavaScript JSX", 0, 0, 0, 90, 0, 0, 0, 4, 14, 108
+"d:\EcoTrack-Waste-Management-System-main\client\src\pages\Schedule.jsx", "JavaScript JSX", 0, 0, 0, 84, 0, 0, 0, 22, 10, 116
+"d:\EcoTrack-Waste-Management-System-main\client\src\pages\UserMain.jsx", "JavaScript JSX", 0, 0, 0, 9, 0, 0, 0, 0, 2, 11
+"d:\EcoTrack-Waste-Management-System-main\client\src\pages\WCReports.jsx", "JavaScript JSX", 0, 0, 0, 61, 0, 0, 0, 0, 4, 65
+"d:\EcoTrack-Waste-Management-System-main\client\src\pages\adminDashboard.jsx", "JavaScript JSX", 0, 0, 0, 799, 0, 0, 0, 9, 48, 856
+"d:\EcoTrack-Waste-Management-System-main\client\src\pages\complaints.jsx", "JavaScript JSX", 0, 0, 0, 113, 0, 0, 0, 5, 10, 128
+"d:\EcoTrack-Waste-Management-System-main\client\src\pages\map\CollectorMap.jsx", "JavaScript JSX", 0, 0, 0, 261, 0, 0, 0, 29, 51, 341
+"d:\EcoTrack-Waste-Management-System-main\client\src\pages\map\Map.jsx", "JavaScript JSX", 0, 0, 0, 676, 0, 0, 0, 25, 69, 770
+"d:\EcoTrack-Waste-Management-System-main\client\src\pages\map\UserMap.jsx", "JavaScript JSX", 0, 0, 0, 5, 0, 0, 0, 0, 3, 8
+"d:\EcoTrack-Waste-Management-System-main\client\src\pages\map\reverseLocation.jsx", "JavaScript JSX", 0, 0, 0, 8, 0, 0, 0, 0, 1, 9
+"d:\EcoTrack-Waste-Management-System-main\client\src\pages\userDashboard.jsx", "JavaScript JSX", 0, 0, 0, 653, 0, 0, 0, 17, 48, 718
+"d:\EcoTrack-Waste-Management-System-main\client\src\pages\userReportForm.jsx", "JavaScript JSX", 0, 0, 0, 712, 0, 0, 0, 21, 65, 798
+"d:\EcoTrack-Waste-Management-System-main\client\tailwind.config.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+"d:\EcoTrack-Waste-Management-System-main\client\vite.config.js", "JavaScript", 8, 0, 0, 0, 0, 0, 0, 1, 2, 11
+"d:\EcoTrack-Waste-Management-System\server\README.md", "Markdown", 0, 0, -7, 0, 0, 0, 0, 0, -6, -13
+"d:\EcoTrack-Waste-Management-System\server\config\connectDB.js", "JavaScript", -14, 0, 0, 0, 0, 0, 0, -4, -5, -23
+"d:\EcoTrack-Waste-Management-System\server\config\multer.js", "JavaScript", -16, 0, 0, 0, 0, 0, 0, 0, -4, -20
+"d:\EcoTrack-Waste-Management-System\server\controllers\userController.js", "JavaScript", -57, 0, 0, 0, 0, 0, 0, -8, -15, -80
+"d:\EcoTrack-Waste-Management-System\server\controllers\userReportController.js", "JavaScript", -134, 0, 0, 0, 0, 0, 0, -6, -22, -162
+"d:\EcoTrack-Waste-Management-System\server\controllers\wasteBinController.js", "JavaScript", -244, 0, 0, 0, 0, 0, 0, -20, -42, -306
+"d:\EcoTrack-Waste-Management-System\server\eslint.config.js", "JavaScript", -32, 0, 0, 0, 0, 0, 0, 0, -2, -34
+"d:\EcoTrack-Waste-Management-System\server\index.js", "JavaScript", -39, 0, 0, 0, 0, 0, 0, -2, -10, -51
+"d:\EcoTrack-Waste-Management-System\server\middleware\auth.js", "JavaScript", -101, 0, 0, 0, 0, 0, 0, 0, -14, -115
+"d:\EcoTrack-Waste-Management-System\server\models\userModel.js", "JavaScript", -56, 0, 0, 0, 0, 0, 0, 0, -8, -64
+"d:\EcoTrack-Waste-Management-System\server\models\userReportModel.js", "JavaScript", -44, 0, 0, 0, 0, 0, 0, 0, -4, -48
+"d:\EcoTrack-Waste-Management-System\server\models\wasteBinModel.js", "JavaScript", -59, 0, 0, 0, 0, 0, 0, 0, -6, -65
+"d:\EcoTrack-Waste-Management-System\server\package-lock.json", "JSON", 0, -4384, 0, 0, 0, 0, 0, 0, -1, -4385
+"d:\EcoTrack-Waste-Management-System\server\package.json", "JSON", 0, -39, 0, 0, 0, 0, 0, 0, -1, -40
+"d:\EcoTrack-Waste-Management-System\server\routes\userReportRoute.js", "JavaScript", -21, 0, 0, 0, 0, 0, 0, 0, -5, -26
+"d:\EcoTrack-Waste-Management-System\server\routes\userRoute.js", "JavaScript", -6, 0, 0, 0, 0, 0, 0, -4, -3, -13
+"d:\EcoTrack-Waste-Management-System\server\routes\wasteBinRoute.js", "JavaScript", -24, 0, 0, 0, 0, 0, 0, -3, -9, -36
+"d:\EcoTrack-Waste-Management-System\server\socket\socketIndex.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, -1, -1
+"d:\EcoTrack-Waste-Management-System\server\vite.config.js", "JavaScript", -5, 0, 0, 0, 0, 0, 0, -1, -2, -8
+"Total", "-", -812, -586, 40, 7865, 50, 13, 338, 220, 906, 8034
